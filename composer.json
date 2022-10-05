@@ -1,0 +1,19 @@
+{
+  "name": "forumone/renovate-example2",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "~5.5.0",
+    "johnpbloch/wordpress-core": "~5.5.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true
+    }
+  }
+}
